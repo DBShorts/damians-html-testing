@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Damian's HTML Testing</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+        <style>
+            body {background-color: #adfff5;}
+            h1 {
+                color: #000000;
+                font-family: "Ubuntu", serif;
+                font-size: 500%;
+            }
+            p {
+                color: #000000;
+                font-family: "Josefin Sans", serif;
+                font-size: 150%;
+            }
+            p.small {
+                color: #000000;
+                font-family: "Josefin Sans", serif;
+                font-size: 100%;
+            }
+            .outline{
+                border-style: solid;
+                border-radius: 15px;
+                border-width: 10px;
+                border-color: #ff0000;
+            }
+            .circlify{
+                border-style: hidden;
+                border-radius: 999px;
+                border-width: 10px;
+                border-color: #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Damian's HTML Testing Website</h1>
+        <button type="button" onclick="Button();">go to website</button>
+        <p class="outline">This is an outlined paragraph. Pretty cool, right?</p>
+        <p>I am learning how to HTML! This is fun!</p>
+        <p class="small">small</p>
+        <p>This image is turned into a circle using the "circlify" class! (A class that I made with some CSS.) </p>
+        <a href="https://www.youtube.com/channel/UCe0DXKkQMU5cCnH2YTvysaQ"><img src="https://yt3.ggpht.com/WhwCM8U69t8fQs-8fG1hAkq7EwjNDm-YIScabjsFJu_FCk5zf5vU05brZCe8OORJNSui-eG90-U" style="width:200px; height:200px" class="circlify"></a>
+        <a href="https://www.youtube.com/channel/UCGZBG6dhEIZBMIcaxqJukFg"><img src="https://yt3.ggpht.com/_fGb8Epo8qA1jdqJ5f5TLzhaB6CvhA0BU8jazzTp6zK-pjy31C4RUe-ES2zLeMHLutaQMvkbsI0" style="width:200px; height:200px" class="circlify"></a>
+    </body>
+</html>
+<script>
+function Button() {
+    document.location.href = "https://dbshorts.github.io/"
+};
+</script>
